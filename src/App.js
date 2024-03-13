@@ -40,7 +40,7 @@ function Meh(){
           setLoading(false);
         });
       };
-      
+
       getSales(); 
       //eslint-disable-next-line react-hooks/exhaustive-deps      
     }, []);
@@ -58,11 +58,11 @@ function Meh(){
             <h1>Sales</h1>
             {sales.map((sale) =>(
                 <div key = {sale.id}>
-                    <h2>
+                    <h3>
                         Date of sale {sale.Date}
-                    </h2>
-                    <p>Paid? {sale.Paid}</p>
-                    <h3>Strain {sale.Strain}</h3>
+                    </h3>
+                    <h3>Paid? {sale.Paid}</h3>
+                    <h3>Strain: {sale.Strain}</h3>
                 </div>
             ))}
         </div>
