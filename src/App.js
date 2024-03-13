@@ -28,21 +28,21 @@ function Meh(){
     
     
     
-    function getSales(){
-      setLoading(true);
-      ref.onSnapshot((querySnapshot) => {
-        const items = [];
-        querySnapshot.forEach((doc) => {
-          console.log(doc.data());
-          items.push(doc.data());
-        });        
-        setSales(items);
-        console.log(sales);
-        setLoading(false);
-      })
-    }
     
     useEffect(() => {
+      function getSales(){
+        setLoading(true);
+        ref.onSnapshot((querySnapshot) => {
+          const items = [];
+          querySnapshot.forEach((doc) => {
+            //console.log(doc.data());
+            items.push(doc.data());
+          });        
+          setSales(items);
+          //console.log(sales);
+          setLoading(false);
+        })
+      };
       getSales();      
     }, []);
 
