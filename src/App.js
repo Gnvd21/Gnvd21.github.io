@@ -25,10 +25,7 @@ function Meh(){
     const [loading, setLoading] = useState(false);
 
     const ref = firebase.firestore().collection("Sales"); //collection(firestore, "Sales");
-    
-    
-    
-    
+        
     useEffect(() => {
       function getSales(){
         setLoading(true);
@@ -41,9 +38,11 @@ function Meh(){
           setSales(items);
           //console.log(sales);
           setLoading(false);
-        })
+        });
       };
-      getSales();      
+      
+      getSales(); 
+      //eslint-disable-next-line react-hooks/exhaustive-deps      
     }, []);
 
     if (loading){
