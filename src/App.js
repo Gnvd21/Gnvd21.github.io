@@ -55,17 +55,19 @@ function Meh(){
 
     return(
         <div>
-            <h1>Sales</h1>
+            <h1 style = {{textAlign: "center"}}>Meh sales tracker</h1>
             {sales.map((sale) =>(
-                <div key = {sale.id}>
+                <div style={{width:250 + "px"}} key = {sale.id}>
                     <h3>
                         Date of sale {sale.Date}
                     </h3>
                     <h3>Paid? {sale.Paid}</h3>
                     <h3>Strain: {sale.Strain}</h3>
+                    <hr></hr>
                 </div>
             ))}
         </div>
+        
     )
 
 };
