@@ -3,6 +3,14 @@ import {firestore} from "../firebase";
 import {firebase} from "../firebase";
 import {addDoc, collection} from "@firebase/firestore"; 
 
+return (
+<div>
+<header>
+Mamaya 7pm 
+</header>
+</div>
+) 
+{/*
 export default function Home(){
     const messageRef = useRef();
     const ref = collection(firestore, "messages");
@@ -36,4 +44,4 @@ export default function Home(){
             </form>
         </div>
     )
-}
+}*/} 
