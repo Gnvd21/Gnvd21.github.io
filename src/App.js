@@ -5,7 +5,7 @@ function App() {
 
   return (
     <div className="App">
-      <stock_stat/>
+      </stock_stat>
     </div>
     
   );
