@@ -1,19 +1,19 @@
-/*import './App.css';
-import Meh from "./pages/Meh";
+import './App.css';
+import Home from "./pages/home";
 
 function App() {
 
   return (
     <div className="App">
-      <Meh/>
+      <Home/>
     </div>
     
   );
 }
 
 export default App;
-*/
 
+/*
 import React, {useState, useEffect} from "react";
 import firebase from "./firebase";
 
@@ -72,4 +72,4 @@ function Meh(){
 
 };
 
-export default Meh;
+export default Meh;*/
