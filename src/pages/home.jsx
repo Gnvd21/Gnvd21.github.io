@@ -3,13 +3,20 @@ import {firestore} from "../firebase";
 import {firebase} from "../firebase";
 import {addDoc, collection} from "@firebase/firestore"; 
 
+
+export default function Home() {
+
 return (
 <div>
 <header>
-Mamaya 7pm 
+Mamaya 7pm norms! 
+
+Calm 101
 </header>
 </div>
 ) 
+};
+
 {/*
 export default function Home(){
     const messageRef = useRef();
