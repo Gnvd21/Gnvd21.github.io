@@ -2,10 +2,10 @@ export default function stock_stat() {
 
 return (
 <div>
-<header>
+<h1>
 Mamaya 7pm norms! 
 Calm 101
-</header>
+</h1>
 </div>
 ) 
 };
