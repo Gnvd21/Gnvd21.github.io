@@ -4,12 +4,11 @@ import stock_stat from "./pages/update";
 function App() {
 
   return (
-    <div className="App">
+
       </stock_stat>
-    </div>
     
   );
-}
+};
 
 export default App;
 
