@@ -2,8 +2,6 @@
 import {firestore} from "../firebase";
 import {firebase} from "../firebase";
 import {addDoc, collection} from "@firebase/firestore"; */} 
-
-
 export default function Home() {
 
 return (
@@ -21,7 +19,6 @@ Calm 101
 export default function Home(){
     const messageRef = useRef();
     const ref = collection(firestore, "messages");
-
 
     const handleSave = async(e) => {
         e.preventDefault();
