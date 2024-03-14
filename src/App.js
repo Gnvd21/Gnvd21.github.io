@@ -6,12 +6,13 @@ import Meh from "./pages/Meh";
 function App() {
   
   return (
-    <div className="App">
-      <Meh/>
-    </div>
+
+      <div>
+        <Meh/>
+      </div>
     
-  );
-}
+  )
+};
 
 export default App;
 
