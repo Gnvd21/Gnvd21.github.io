@@ -5,9 +5,9 @@ function App() {
 
   return (
 
-      {stock_stat} 
+      stock_stat
     
-  );
+  )
 };
 
 export default App;
