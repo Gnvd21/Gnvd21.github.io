@@ -24,7 +24,7 @@ function Meh(){
       };
 
       getSales();     
-    }, []);
+    }, []); 
 
     if (loading){
        return (
