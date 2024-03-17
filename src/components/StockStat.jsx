@@ -1,4 +1,4 @@
-export default function stock_stat() {
+function StockStat() {
 
 return (
 <div>
@@ -9,3 +9,5 @@ return (
 </div>
 ) 
 };
+
+export default StockStat;

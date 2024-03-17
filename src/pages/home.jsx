@@ -3,15 +3,15 @@ import {firestore} from "../firebase";
 import {firebase} from "../firebase";
 import {addDoc, collection} from "@firebase/firestore"; */
 export default function Home() {
-
-return (
-<div>
-<header>
-Mamaya 7pm norms! 
-Calm 101
-</header>
-</div>
-) 
+    return (
+    <a href="/stocks">
+        <div id = "scroll-container">
+            <div id = "scroll-text" >
+                Calm 101 on-hand! Last g in stock.
+            </div>
+        </div>
+    </a>
+    ) 
 };
 
 /*

@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+#scroll-container{
+  border: 3px solid black;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#scroll-text{
+  font-size: 32px;
+  -moz-transform: translateX(100%);
+  -webkit-transform: translate(100%);
+  transform: translateX(100%);
+  -moz-animation: my-animation 7s linear infinite;
+  -webkit-animation: my-animation 7s linear infinite;
+  animation: my-animation 7s linear infinite;
+}
+ a:hover, a:visited, a:link, a:active{
+  color: black;
+  text-decoration: none;
+  cursor: default;
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
